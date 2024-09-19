@@ -12,9 +12,9 @@ Favfood = ("Skittes", "Chicken", "Fish")
 #step-6 make a variable that stores your fav food (at least 3).
 def drivers_license(age):
     if age >= 16:
-        return "You are eligible to get a driver's license."
+        print ("You are eligible to get a driver's license.")
     else:
-        return "You are not eligible to get a driver's license yet."
+        print ("You are not eligible to get a driver's license yet.")
 #step-7 make a if statement that tells someone if tbat a get drivers license.
 name = input("what is your name?")
 print(name)
