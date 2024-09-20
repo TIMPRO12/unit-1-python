@@ -57,6 +57,7 @@ Create a new variable equal to the first 2 items of your list
 Then print out the new variable
 """
 list2 = list_of_mods [0:2]
+#list2 is the new list
 print(list2)
 
 
@@ -65,3 +66,9 @@ Task 8: Extend a List
 Extend the list with the elements of another list. Print 
 the updated list.
 """
+list2 = ["Pink", "Blue", "Red", "Yellow", "Orange"]
+Both_toger = list_of_mods + list2
+print (Both_toger)
+
+
+
