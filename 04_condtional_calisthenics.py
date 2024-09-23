@@ -3,8 +3,8 @@ Exercise 1:
 Check if an integer is even and greater than 10.
 Return True if both conditions are met, False otherwise.
 '''
-x = int(input('Input a number'))
-if x >= 10:
+num = int(input('Input a number'))
+if num >= 10:
     print("true")
 else:
     print("false")
@@ -30,12 +30,19 @@ Prompt the user to enter a fruit name. Check if the fruit is in the list.
 If it is, print "Yes, that fruit is in the list." 
 If it's not, print "No, that fruit is not in the list."
 '''
+furit_list = ['Apple']
+
+furit_name = input('input a furit name')
+if 'Apple' in furit_list: print('Yes, that fruit is in the list')
+else: print('No, that fruit is not in the list')
+
 
 
 '''
 Exercise 4:
 Check if a year is a century year and a leap year.
 '''
+
 
 '''
 Exercise 5:
