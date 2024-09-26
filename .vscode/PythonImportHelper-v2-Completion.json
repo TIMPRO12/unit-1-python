@@ -1,0 +1,389 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "number1",
+        "kind": 5,
+        "importPath": "01_data_types",
+        "description": "01_data_types",
+        "peekOfCode": "number1 = 12.34\nnumber2 =int(number1) # Changes number1 into a whole number\nprint (number1)\nprint (number2)\n\"\"\"\nTASK 2:\nWrite code that takes a number as input and prints whether \nit's positive, negative, or zero using if-elif-else statements.\n\"\"\"\nputnum = int(input(\"Put an positive number, negative number, or zero\"))",
+        "detail": "01_data_types",
+        "documentation": {}
+    },
+    {
+        "label": "putnum",
+        "kind": 5,
+        "importPath": "01_data_types",
+        "description": "01_data_types",
+        "peekOfCode": "putnum = int(input(\"Put an positive number, negative number, or zero\"))\nprint (putnum)\nif putnum > 0: \n    print (\"positive\")\nelif putnum < 0: \n    print (\"negative\")\nelse:\n    print (\"zero\")\n\"\"\"\nTASK 3:",
+        "detail": "01_data_types",
+        "documentation": {}
+    },
+    {
+        "label": "password",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "password = \"deepwoken\"\nentpass = input(\"put in password\").lower()\n#input for the password\nif entpass == password:\n    print(\"correct\")\nelse:\n    print(\"wrong password\")\n\"\"\"\nTASK 2:\nWrite code that checks if a user inputs an empty string",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "entpass",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "entpass = input(\"put in password\").lower()\n#input for the password\nif entpass == password:\n    print(\"correct\")\nelse:\n    print(\"wrong password\")\n\"\"\"\nTASK 2:\nWrite code that checks if a user inputs an empty string\nIf the string is empty, print \"invalid\" otherwise print \"valid\"",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "words = input(\"put some words in ;3\")\nwords = words.strip()\n#clears the whitespaces\nif bool(words) == True:\n    print(\"valid\")\nelse:\n    print (\"invalid\")\n\"\"\"\nTASK 3:\nWrite a program that will replace the word \"cat\" with the word \"dog\"",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "words = words.strip()\n#clears the whitespaces\nif bool(words) == True:\n    print(\"valid\")\nelse:\n    print (\"invalid\")\n\"\"\"\nTASK 3:\nWrite a program that will replace the word \"cat\" with the word \"dog\"\nIt should replace all occurances regardless of captilization ",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "pet1",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "pet1 = 'cat'\nnew_pet = pet1.replace('cat','dog')\n#swaps cat for dog\nprint (new_pet)\n\"\"\"\nTASK 4:\nWrite a program that takes a person's name and age as input and prints it\n\"\"\"\nage = input(\"what is your age?\")\nprint(age)",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "new_pet",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "new_pet = pet1.replace('cat','dog')\n#swaps cat for dog\nprint (new_pet)\n\"\"\"\nTASK 4:\nWrite a program that takes a person's name and age as input and prints it\n\"\"\"\nage = input(\"what is your age?\")\nprint(age)\nname = input(\"what is your name?\")",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "age = input(\"what is your age?\")\nprint(age)\nname = input(\"what is your name?\")\nprint(name)\n\"\"\"\nTASK 5:\nWrite a program that takes in two floats, and prints the quotient\nThe result should be rounded to the nearest tenth (1 decimal place)\n\"\"\"\nfloat1 = (12.3)",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "name = input(\"what is your name?\")\nprint(name)\n\"\"\"\nTASK 5:\nWrite a program that takes in two floats, and prints the quotient\nThe result should be rounded to the nearest tenth (1 decimal place)\n\"\"\"\nfloat1 = (12.3)\nfloat2 = (45.6)\nanswer = float1 / float2 ",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "float1",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "float1 = (12.3)\nfloat2 = (45.6)\nanswer = float1 / float2 \nquotent = \"f{float1} / {float2} = {answer:.1f}\"\nprint(quotent)",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "float2",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "float2 = (45.6)\nanswer = float1 / float2 \nquotent = \"f{float1} / {float2} = {answer:.1f}\"\nprint(quotent)",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "answer",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "answer = float1 / float2 \nquotent = \"f{float1} / {float2} = {answer:.1f}\"\nprint(quotent)",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "quotent",
+        "kind": 5,
+        "importPath": "02_formatting",
+        "description": "02_formatting",
+        "peekOfCode": "quotent = \"f{float1} / {float2} = {answer:.1f}\"\nprint(quotent)",
+        "detail": "02_formatting",
+        "documentation": {}
+    },
+    {
+        "label": "list_of_mods",
+        "kind": 5,
+        "importPath": "03_list_blitz",
+        "description": "03_list_blitz",
+        "peekOfCode": "list_of_mods = [\"Half_grip\", \"Side_grip\", \"Laser_sight\", \"Buckshot\"]\nprint (list_of_mods)\n\"\"\"\nTask 2: Add Element to a List\nAdd an element to the end of the list. Print the updated \nlist.\n\"\"\"\nlist_of_mods.append (\"supressor\")\n#this allows me to add to the list\nprint (list_of_mods)",
+        "detail": "03_list_blitz",
+        "documentation": {}
+    },
+    {
+        "label": "list_of_mods[3]",
+        "kind": 5,
+        "importPath": "03_list_blitz",
+        "description": "03_list_blitz",
+        "peekOfCode": "list_of_mods[3] = \"Flash muzzle\"\n#changes the third one on the lis to flash muzzle\nprint(list_of_mods)\n\"\"\"\nTask 5: Append Multiple Elements to a List\nAppend multiple elements to the end of the list. Print \nthe updated list.\n\"\"\"\nlist_of_mods.append (\"Extended barrel\")\n#you can only add one at a time so you have to put them in their on line of code",
+        "detail": "03_list_blitz",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "03_list_blitz",
+        "description": "03_list_blitz",
+        "peekOfCode": "list2 = list_of_mods [0:2]\n#list2 is the new list\nprint(list2)\n\"\"\"\nTask 8: Extend a List\nExtend the list with the elements of another list. Print \nthe updated list.\n\"\"\"\nlist2 = [\"Pink\", \"Blue\", \"Red\", \"Yellow\", \"Orange\"]\nBoth_toger = list_of_mods + list2",
+        "detail": "03_list_blitz",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "03_list_blitz",
+        "description": "03_list_blitz",
+        "peekOfCode": "list2 = [\"Pink\", \"Blue\", \"Red\", \"Yellow\", \"Orange\"]\nBoth_toger = list_of_mods + list2\nprint (Both_toger)",
+        "detail": "03_list_blitz",
+        "documentation": {}
+    },
+    {
+        "label": "Both_toger",
+        "kind": 5,
+        "importPath": "03_list_blitz",
+        "description": "03_list_blitz",
+        "peekOfCode": "Both_toger = list_of_mods + list2\nprint (Both_toger)",
+        "detail": "03_list_blitz",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "04_condtional_calisthenics",
+        "description": "04_condtional_calisthenics",
+        "peekOfCode": "num = int(input('Input a number'))\nif num >= 10:\n    print(\"true\")\nelse:\n    print(\"false\")\n'''\nExercise 2:\nDetermine the ticket price based on age and student status.\nPrice is $10 if under 18 or a student, $20 otherwise.\n'''",
+        "detail": "04_condtional_calisthenics",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "04_condtional_calisthenics",
+        "description": "04_condtional_calisthenics",
+        "peekOfCode": "age = int(input('What is your age?'))\nif age >= 18: \n        print(\"The price for a adult is $20\")\nelif age <= 17: \n    print(\"The price for a child/student is $10\")\n'''\nExercise 3:\nPrompt the user to enter a fruit name. Check if the fruit is in the list. \nIf it is, print \"Yes, that fruit is in the list.\" \nIf it's not, print \"No, that fruit is not in the list.\"",
+        "detail": "04_condtional_calisthenics",
+        "documentation": {}
+    },
+    {
+        "label": "furit_list",
+        "kind": 5,
+        "importPath": "04_condtional_calisthenics",
+        "description": "04_condtional_calisthenics",
+        "peekOfCode": "furit_list = ['Apple']\nfurit_name = input('input a furit name')\nif 'Apple' in furit_list: print('Yes, that fruit is in the list')\nelse: print('No, that fruit is not in the list')\n'''\nExercise 4:\nCheck if a year is a century year and a leap year.\n'''\n'''\nExercise 5:",
+        "detail": "04_condtional_calisthenics",
+        "documentation": {}
+    },
+    {
+        "label": "furit_name",
+        "kind": 5,
+        "importPath": "04_condtional_calisthenics",
+        "description": "04_condtional_calisthenics",
+        "peekOfCode": "furit_name = input('input a furit name')\nif 'Apple' in furit_list: print('Yes, that fruit is in the list')\nelse: print('No, that fruit is not in the list')\n'''\nExercise 4:\nCheck if a year is a century year and a leap year.\n'''\n'''\nExercise 5:\nCalculate the cost of shipping for an online order based on the order weight and destination zone. ",
+        "detail": "04_condtional_calisthenics",
+        "documentation": {}
+    },
+    {
+        "label": "first_num",
+        "kind": 5,
+        "importPath": "05_calculator",
+        "description": "05_calculator",
+        "peekOfCode": "first_num = int(input('Put a number in.'))\nsecond_num = int(input('Put a number in.'))\nprint('')\nprint('')\nprint('Please pick an option.')\nprint('')\nprint('')",
+        "detail": "05_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "second_num",
+        "kind": 5,
+        "importPath": "05_calculator",
+        "description": "05_calculator",
+        "peekOfCode": "second_num = int(input('Put a number in.'))\nprint('')\nprint('')\nprint('Please pick an option.')\nprint('')\nprint('')",
+        "detail": "05_calculator",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "06_whimsical_whiles",
+        "description": "06_whimsical_whiles",
+        "peekOfCode": "i = 1\nwhile i < 11:\n    print(i)\n    i += 1\n#the += is to have the number count forwards\nprint('')\n\"\"\"\n2. Countdown:\nWrite a program that uses a while loop to print numbers from 10 to 1 in descending order.\n\"\"\"",
+        "detail": "06_whimsical_whiles",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "06_whimsical_whiles",
+        "description": "06_whimsical_whiles",
+        "peekOfCode": "o = 10\nwhile o > 0:\n    print(o)\n    o -= 1\n#the -= is to have the number count backwards\nprint('')\n\"\"\"\n3. Factorial Calculation:\nWrite a program that calculates the factorial of a given number using a while loop.\n\"\"\"",
+        "detail": "06_whimsical_whiles",
+        "documentation": {}
+    },
+    {
+        "label": "factorial",
+        "kind": 5,
+        "importPath": "06_whimsical_whiles",
+        "description": "06_whimsical_whiles",
+        "peekOfCode": "factorial = int(input('input a number'))\np = 1 \nprint('')\n\"\"\"\n4. Password Guessing Game:\nCreate a simple password guessing game using a while loop. Ask the user to guess a predefined password and provide appropriate feedback.\n\"\"\"\nprint('')\n\"\"\"\n5. Sum of Digits:",
+        "detail": "06_whimsical_whiles",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "06_whimsical_whiles",
+        "description": "06_whimsical_whiles",
+        "peekOfCode": "p = 1 \nprint('')\n\"\"\"\n4. Password Guessing Game:\nCreate a simple password guessing game using a while loop. Ask the user to guess a predefined password and provide appropriate feedback.\n\"\"\"\nprint('')\n\"\"\"\n5. Sum of Digits:\nWrite a program that calculates the sum of the digits of a given number using a while loop.",
+        "detail": "06_whimsical_whiles",
+        "documentation": {}
+    },
+    {
+        "label": "metal",
+        "kind": 5,
+        "importPath": "07_flipping_fors",
+        "description": "07_flipping_fors",
+        "peekOfCode": "metal = 'metal sonic'\nfor x in metal:\n    print(x)\n\"\"\"\nExercise 2:\nWrite a program to calculate the sum of elements in a list using a for loop.\n\"\"\"\nnumberlist = [2,5,4,3,6,7,9]\nsum = 12\nfor num in numberlist:",
+        "detail": "07_flipping_fors",
+        "documentation": {}
+    },
+    {
+        "label": "numberlist",
+        "kind": 5,
+        "importPath": "07_flipping_fors",
+        "description": "07_flipping_fors",
+        "peekOfCode": "numberlist = [2,5,4,3,6,7,9]\nsum = 12\nfor num in numberlist:\n    sum += num\nprint(sum)\n\"\"\"\nExercise 3:\nWrite a program to print the length of each word in a sentence using a for loop and a list.\n\"\"\"\nmine = 'Minecraft is a good game'",
+        "detail": "07_flipping_fors",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "07_flipping_fors",
+        "description": "07_flipping_fors",
+        "peekOfCode": "sum = 12\nfor num in numberlist:\n    sum += num\nprint(sum)\n\"\"\"\nExercise 3:\nWrite a program to print the length of each word in a sentence using a for loop and a list.\n\"\"\"\nmine = 'Minecraft is a good game'\nwords = mine.split(' ')",
+        "detail": "07_flipping_fors",
+        "documentation": {}
+    },
+    {
+        "label": "mine",
+        "kind": 5,
+        "importPath": "07_flipping_fors",
+        "description": "07_flipping_fors",
+        "peekOfCode": "mine = 'Minecraft is a good game'\nwords = mine.split(' ')\nprint (words)\n\"\"\"\nExcercise 4:\nWrite a program that creates a dictionary (atleast 4 key:value pairs) and then\niterates through a dictionary and prints the result\nIn a comment, answer the following, what do you notice about the output of your code?\nIs it what you expected?\n\"\"\"",
+        "detail": "07_flipping_fors",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "07_flipping_fors",
+        "description": "07_flipping_fors",
+        "peekOfCode": "words = mine.split(' ')\nprint (words)\n\"\"\"\nExcercise 4:\nWrite a program that creates a dictionary (atleast 4 key:value pairs) and then\niterates through a dictionary and prints the result\nIn a comment, answer the following, what do you notice about the output of your code?\nIs it what you expected?\n\"\"\"\n#",
+        "detail": "07_flipping_fors",
+        "documentation": {}
+    },
+    {
+        "label": "todo_list",
+        "kind": 5,
+        "importPath": "Aoi Todo",
+        "description": "Aoi Todo",
+        "peekOfCode": "todo_list = ['get cash', 'spend cash', 'cry']\nprint (todo_list)\nadd = input('what task would you like to add?')\nif add ==",
+        "detail": "Aoi Todo",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 5,
+        "importPath": "Aoi Todo",
+        "description": "Aoi Todo",
+        "peekOfCode": "add = input('what task would you like to add?')\nif add ==",
+        "detail": "Aoi Todo",
+        "documentation": {}
+    },
+    {
+        "label": "drivers_license",
+        "kind": 2,
+        "importPath": "Lesson_00",
+        "description": "Lesson_00",
+        "peekOfCode": "def drivers_license(age):\n    if age >= 16:\n        print (\"You are eligible to get a driver's license.\")\n    else:\n        print (\"You are not eligible to get a driver's license yet.\")\n#step-7 make a if statement that tells someone if tbat a get drivers license.\nname = input(\"what is your name?\")\nprint(name)\n#step-8 ask user for their name and print to the consle.\nfor x in Favfood:",
+        "detail": "Lesson_00",
+        "documentation": {}
+    },
+    {
+        "label": "Favshow",
+        "kind": 5,
+        "importPath": "Lesson_00",
+        "description": "Lesson_00",
+        "peekOfCode": "Favshow = \"Gurren Laggan\"\n#step-3 use snake case to make a variable named \"fav show\".\nInteger = 31\nFloat = 3.1\n#Step-4 using snake case create one float and one integer variable.\nprint(Integer * Float)\n#step-5 print the product of the two previuse variables.\nFavfood = (\"Skittes\", \"Chicken\", \"Fish\")\n#step-6 make a variable that stores your fav food (at least 3).\ndef drivers_license(age):",
+        "detail": "Lesson_00",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "kind": 5,
+        "importPath": "Lesson_00",
+        "description": "Lesson_00",
+        "peekOfCode": "Integer = 31\nFloat = 3.1\n#Step-4 using snake case create one float and one integer variable.\nprint(Integer * Float)\n#step-5 print the product of the two previuse variables.\nFavfood = (\"Skittes\", \"Chicken\", \"Fish\")\n#step-6 make a variable that stores your fav food (at least 3).\ndef drivers_license(age):\n    if age >= 16:\n        print (\"You are eligible to get a driver's license.\")",
+        "detail": "Lesson_00",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "kind": 5,
+        "importPath": "Lesson_00",
+        "description": "Lesson_00",
+        "peekOfCode": "Float = 3.1\n#Step-4 using snake case create one float and one integer variable.\nprint(Integer * Float)\n#step-5 print the product of the two previuse variables.\nFavfood = (\"Skittes\", \"Chicken\", \"Fish\")\n#step-6 make a variable that stores your fav food (at least 3).\ndef drivers_license(age):\n    if age >= 16:\n        print (\"You are eligible to get a driver's license.\")\n    else:",
+        "detail": "Lesson_00",
+        "documentation": {}
+    },
+    {
+        "label": "Favfood",
+        "kind": 5,
+        "importPath": "Lesson_00",
+        "description": "Lesson_00",
+        "peekOfCode": "Favfood = (\"Skittes\", \"Chicken\", \"Fish\")\n#step-6 make a variable that stores your fav food (at least 3).\ndef drivers_license(age):\n    if age >= 16:\n        print (\"You are eligible to get a driver's license.\")\n    else:\n        print (\"You are not eligible to get a driver's license yet.\")\n#step-7 make a if statement that tells someone if tbat a get drivers license.\nname = input(\"what is your name?\")\nprint(name)",
+        "detail": "Lesson_00",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "Lesson_00",
+        "description": "Lesson_00",
+        "peekOfCode": "name = input(\"what is your name?\")\nprint(name)\n#step-8 ask user for their name and print to the consle.\nfor x in Favfood:\n  print(x) \n#step-9 make a loop that prints each of your fav foods.\nwhile Integer * float == 3:\n float = 5\n#step-10 make a wild loop that will never run",
+        "detail": "Lesson_00",
+        "documentation": {}
+    }
+]
