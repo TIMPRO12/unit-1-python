@@ -45,5 +45,6 @@ while 1:
         print('Your ToDo list Is Cleared')
     else:
         print('Nuh Uh.')
+        print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
 
 
