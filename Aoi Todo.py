@@ -28,7 +28,7 @@ while 1:
         add = input("")
         todo_list.append(add)
         print("")
-        print(f"Added {add} To Your ToDo List.")
+        print(f"Added {add} To Your Todo List.")
         print("")
         print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
         print("")
@@ -36,13 +36,13 @@ while 1:
         print('What Would You Like To Remove?')
         remove = input("")
         todo_list.remove(remove)
-        print(f"Removed {remove} From Your ToDo List.")
+        print(f"Snapped {remove} From Your Todo List.")
         print("")
         print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
         print("")
     elif pick == 4:
         todo_list = []
-        print('Your ToDo list Is Cleared')
+        print('Your Todo list Is Burned')
     else:
         print('Nuh Uh.')
         print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
