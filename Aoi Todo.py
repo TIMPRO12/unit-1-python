@@ -2,6 +2,8 @@ print ('To-do List!')
 print ('')
 print ('')
 todo_list = []
+with open('todo.txt') as file:
+    contents = file.read()
 
 while 1:
     print('What would you like to do?')
@@ -47,4 +49,6 @@ while 1:
         print('Nuh Uh.')
         print("+++++++++++++++++++++++++++++++++++++++++++++++++++")
 
-
+        with open('todo.txt', "r+") as file:
+            contents = file.readlines()
+        print(contents)

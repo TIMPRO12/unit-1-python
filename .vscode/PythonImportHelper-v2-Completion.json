@@ -319,16 +319,7 @@
         "kind": 5,
         "importPath": "Aoi Todo",
         "description": "Aoi Todo",
-        "peekOfCode": "todo_list = ['get cash', 'spend cash', 'cry']\nprint (todo_list)\nadd = input('what task would you like to add?')\nif add ==",
-        "detail": "Aoi Todo",
-        "documentation": {}
-    },
-    {
-        "label": "add",
-        "kind": 5,
-        "importPath": "Aoi Todo",
-        "description": "Aoi Todo",
-        "peekOfCode": "add = input('what task would you like to add?')\nif add ==",
+        "peekOfCode": "todo_list = []\nwith open('todo.txt') as file:\n    contents = file.read()\nwhile 1:\n    print('What would you like to do?')\n    print(\"\")\n    print('1. Add a Todo')\n    print('2. View Task')\n    print('3. Snap Away a Todo')\n    print('4. Burn It All!')",
         "detail": "Aoi Todo",
         "documentation": {}
     },
