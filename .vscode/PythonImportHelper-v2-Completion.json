@@ -315,6 +315,60 @@
         "documentation": {}
     },
     {
+        "label": "text",
+        "kind": 5,
+        "importPath": "09_debugging",
+        "description": "09_debugging",
+        "peekOfCode": "text = \"Hello, world, my name is\"\ncount = 0\nfor char in text:\n    if char == \" \": #there was no space in between the quotion\n       count += 1\nprint(count)\nprint('++++++++++++++++++++++++')\nprint(\"give me a number\")\nn = int(input())\nfor num in range(1, n):",
+        "detail": "09_debugging",
+        "documentation": {}
+    },
+    {
+        "label": "count",
+        "kind": 5,
+        "importPath": "09_debugging",
+        "description": "09_debugging",
+        "peekOfCode": "count = 0\nfor char in text:\n    if char == \" \": #there was no space in between the quotion\n       count += 1\nprint(count)\nprint('++++++++++++++++++++++++')\nprint(\"give me a number\")\nn = int(input())\nfor num in range(1, n):\n    if num % 2 < 0:",
+        "detail": "09_debugging",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "09_debugging",
+        "description": "09_debugging",
+        "peekOfCode": "n = int(input())\nfor num in range(1, n):\n    if num % 2 < 0:\n        print(num, \"is odd.\")\n    else:\n        print(num, \"is even.\")\nprint('++++++++++++++++++++++++')\nnum = int(input(\"Enter an integer: \"))\nif num < -1:\n  print(\"No negative numbers.\")",
+        "detail": "09_debugging",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "09_debugging",
+        "description": "09_debugging",
+        "peekOfCode": "num = int(input(\"Enter an integer: \"))\nif num < -1:\n  print(\"No negative numbers.\")\nelse:\n  result = 1\n  for i in range(1, num):\n    result *= i   \n  print(\"Factorial of \" + num + \"is\" + result)\nprint('++++++++++++++++++++++++')\nattempts = 0",
+        "detail": "09_debugging",
+        "documentation": {}
+    },
+    {
+        "label": "attempts",
+        "kind": 5,
+        "importPath": "09_debugging",
+        "description": "09_debugging",
+        "peekOfCode": "attempts = 0\ncorrect_password = \"secret\"\nwhile True:\n    password = input(\"Enter your password: \")\n    attempts += 1\n    if password == \"incorrect_password\":\n        print(\"Correct password!\")\n    else:\n        print(\"Incorrect password\")\n    if attempts > 3:",
+        "detail": "09_debugging",
+        "documentation": {}
+    },
+    {
+        "label": "correct_password",
+        "kind": 5,
+        "importPath": "09_debugging",
+        "description": "09_debugging",
+        "peekOfCode": "correct_password = \"secret\"\nwhile True:\n    password = input(\"Enter your password: \")\n    attempts += 1\n    if password == \"incorrect_password\":\n        print(\"Correct password!\")\n    else:\n        print(\"Incorrect password\")\n    if attempts > 3:\n        print(\"Too many attempts\")",
+        "detail": "09_debugging",
+        "documentation": {}
+    },
+    {
         "label": "todo_list",
         "kind": 5,
         "importPath": "Aoi Todo",
