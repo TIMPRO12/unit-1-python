@@ -26,6 +26,9 @@ Task 3: Even or Odd
 Write a function that takes a number as a argument that 
 returns `True` if the number is even, and `False` otherwise.
 """
+def true():
+    int(input('input a number 1-10'))
+    
 
 
 
