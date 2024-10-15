@@ -52,3 +52,11 @@ while 1:
         with open('todo.txt', "r+") as file:
             contents = file.readlines()
         print(contents)
+
+
+
+
+
+
+
+
